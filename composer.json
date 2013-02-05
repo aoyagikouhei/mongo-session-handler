@@ -1,0 +1,26 @@
+{
+    "name": "aoyagikouhei/mongo-session-handler",
+    "description": "mongodb session handler",
+    "license": "MIT",
+    "keywords": ["mongodb", "session"],
+    "homepage": "https://github.com/aoyagikouhei/mongo-session-handler",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "authors": [
+        {
+            "name": "aoyagikouhei",
+            "email": "aoyagi.kouhei@gmail.com",
+            "homepage": "http://aoyagikouhei.blog8.fc2.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "MongoSession": "./src"
+        }
+    }
+}
